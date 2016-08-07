@@ -10,14 +10,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button logoutBtn;
-    EditText etname,etUserName,etAge;
+    EditText etname,etUserName,TFconfirmPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         etname = (EditText) findViewById(R.id.etName);
         etUserName = (EditText) findViewById(R.id.etUserName);
-        etAge = (EditText) findViewById(R.id.etAge);
+        TFconfirmPassword = (EditText) findViewById(R.id.TFconfirmPassword);
 
         logoutBtn = (Button) findViewById(R.id.logOutbtn);
 

@@ -21,15 +21,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="User Name"
         android:ems="10"
-        android:id="@+id/etUserName" />
+        android:id="@+id/etUserName"
+        android:hint="User Name" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="Password"
         android:layout_marginTop="12dp"
         android:id="@+id/password" />
 
@@ -37,9 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:text="Password"
         android:ems="10"
-        android:id="@+id/etPassword" />
+        android:id="@+id/etPassword"
+        android:textIsSelectable="false"
+        android:hint="Password" />
     <Button
         android:layout_width="match_parent"
         android:text="Login"

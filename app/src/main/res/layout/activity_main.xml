@@ -10,56 +10,9 @@
     android:orientation="vertical"
     tools:context="com.webhawksit.rio.loginregister.LoginActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Name"
-        android:layout_margin="10dp"
-        android:id="@+id/Name" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:layout_marginTop="10dp"
-        android:id="@+id/etName" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Age"
-        android:layout_margin="10dp"
-        android:id="@+id/age" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Age"
-        android:ems="10"
-        android:id="@+id/etAge" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="UserName"
-        android:layout_margin="10dp"
-        android:id="@+id/userName" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="User Name"
-        android:ems="10"
-        android:id="@+id/etUserName" />
-
     <Button
         android:layout_width="match_parent"
-        android:text="LogOut"
+        android:text="Continue"
         android:id="@+id/logOutbtn"
         android:layout_height="wrap_content" />
 </LinearLayout>
